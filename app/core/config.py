@@ -1,7 +1,7 @@
 from pydantic import BaseSettings
 
 APP_NAME = "Saber App"
-APP_DESCRIPTION = "Получить список задач для билда"
+APP_DESCRIPTION = "Билд-система для автоматизации рутинных процессов"
 NAME = "name"
 TASKS = "tasks"
 DEPENDENCIES = "dependencies"
