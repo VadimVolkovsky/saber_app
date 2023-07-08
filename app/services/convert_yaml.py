@@ -8,7 +8,7 @@ from app.core.config import (BUILD_FIELDS, BUILDS_YAML_PATH, TASK_FIELDS,
                              TASK_YAML_PATH)
 from app.models.build import Build
 from app.models.task import Task
-from logging_config import configure_logging
+from app.logging_config import configure_logging
 
 retort = Retort()
 
