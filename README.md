@@ -2,7 +2,7 @@
 
 Билд-система для автоматизации рутинных процессов при разработке игр.
 
-<details> <summary> Описание </summary> 
+**<details><summary> Описание </summary>**
 
 Система оперирует понятиями “задача” и “билд”. 
 
@@ -35,7 +35,7 @@
 Описания билдов задаются в yaml-файле `builds.yaml` (в приложении).
 </details>
 
-<details> <summary> Инструкция по запуску </summary>
+**<details><summary> Инструкция по запуску </summary>**
 
 Клонируйте репозиторий:
 ```
@@ -50,7 +50,7 @@ docker-compose up --build
 Будет выполнено разворачивание контейнера `saber_backend`
 </details>
 
-<details><summary> Отправка запросов </summary>
+**<details><summary> Отправка запросов </summary>**
   
 Тестирование через интерфейс Swagger:
 
@@ -100,7 +100,7 @@ http://127.0.0.1/docs
 </details>
 
 
-<details><summary> Документация приложения </summary>
+**<details><summary> Документация приложения </summary>**
   
 - Swagger
 ```
@@ -114,7 +114,7 @@ http://127.0.0.1/redoc
 </details>
 
 
-<details><summary>Логирование </summary>
+**<details><summary>Логирование </summary>**
   
 В приложении реализовано логирование.
 
@@ -125,7 +125,7 @@ app/logs/
 </details>
 
 
-<details><summary>Технологии </summary>
+**<details><summary>Технологии </summary>**
   
 - Python 3.10
 - FastAPI
